@@ -1,0 +1,35 @@
+.card{
+  border-radius: 5px;
+  border: 1px solid #000;
+  background-color: #F0F0F0;
+  color: #000;
+  cursor: pointer;
+  flex: 1 1 auto;
+  height: 55px;
+  margin: 5px;
+  max-width: 300px;
+  padding: 5px;
+  position: relative;
+  text-decoration: none;
+  transition: all .5s;
+  width: 100%;
+}
+
+.card:hover{
+  background-color: #CDCDCD;
+  text-decoration: underline;
+  transition: all .5s;
+}
+
+.countryName{
+  font-size: 13px;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+.card img{
+  position: absolute;
+  bottom: 5px;
+  right: 10px;
+  width: 50px;
+}

@@ -1,0 +1,224 @@
+.header{
+  background-color: #CCC;
+  padding: 10px;
+  text-align: center;
+}
+
+.header ul{
+  display: flex;
+  list-style: none;
+  margin: 0 auto;
+  padding: 0;
+  width: 100%;
+}
+
+.header ul li{
+  margin: auto;
+  width: 100%;
+}
+
+.header a{
+  color: blue;
+  text-decoration: none;
+}
+
+.header a:hover{
+  text-decoration: underline;
+}
+
+.menu ul.searchResult li::before{
+  content: ""
+}
+
+.country{
+  border: 1px solid #CCC;
+  border-radius: 15px;
+  margin: 10px auto;
+  padding: 15px 10px;
+  width: 90%;
+}
+
+.country .countryName{
+  display: flex;
+}
+
+.country .countryName div{
+  width: 100%;
+}
+
+.country .countryName h1{
+  margin: 10px 0 0;
+}
+
+.country .countryName p{
+  font-size: 15px;
+  font-weight: normal;
+  margin: 0 0 10px;
+  text-transform: capitalize;
+}
+
+.country .countryName p span{
+  font-weight: bold;
+}
+
+.country .countryName a.btn{
+  color: blue;
+  cursor: pointer;
+  font-size: 13px;
+  text-transform: capitalize;
+}
+
+.country .countryName img{
+  height: 70px;
+  width: 110px;
+}
+
+.mapContainer{
+  display: flex;
+  margin: auto;
+}
+
+.mapContainer div{
+  width: 100%;
+}
+
+.mapContainer div.otherData{
+  padding-top: 25px;
+}
+
+.mapContainer div.otherData span{
+  font-weight: bold;
+}
+
+.mapContainer div.otherData p i{
+  font-style: normal;
+  margin: 0 2px;
+}
+
+.currency{
+  border-bottom: 1px solid #CCC;
+  padding-bottom: 10px;
+  width: 50%;
+}
+
+/*  Componente de Busca  */
+
+.search{
+  background-color: #CCC;
+  margin: auto;
+  max-width: 300px;
+  position: relative;
+  width: 100%;
+}
+
+.search input.inputSearch{
+  border: 0;
+  border-radius: 15px;
+  height: 20px;
+  margin-top: 5px;
+  padding: 5px 10px;
+  outline: none;
+  width: 100%;
+}
+
+.searchResult{
+  background-color: #FFF;
+  border: 1px solid #000;
+  flex-direction: column;
+  left: 0;
+  list-style: none;
+  max-height: 400px;
+  overflow-x: auto;
+  position: absolute;
+  padding: 0;
+  top: 40px;
+  width: 100%;
+}
+
+.search ul.searchResult li{
+  border: 1px solid #666;
+  margin: auto;
+  max-width: 265px;
+  padding: 10px 5px 10px 10px;
+}
+
+.search ul.searchResult li:hover{
+  background-color: #CCC;
+}
+
+.search ul.searchResult a{
+  color: blue;
+  text-decoration: none;
+}
+
+.search ul.searchResult li::before{
+  content: ""
+}
+
+
+/* Edição */
+
+.country .countryName div.editFields{
+  display: flex;
+  flex-direction: column;
+}
+
+.country .countryName div.editFields div.editName input{
+  border: 1px solid #CCC;
+  border-radius: 15px;
+  font-size: 2em;
+  height: 40px;
+  margin-top: 5px;
+  padding: 0 10px;
+  outline: none;
+  width: 350px;
+}
+
+.country .countryName div.editFields div.buttons{
+  display: flex;
+  width: 300px;
+}
+
+.country .countryName div.editFields div.buttons a{
+  border-radius: 5px;
+  margin: auto;
+  padding: 2px 10px;
+}
+
+.country .countryName div.editFields div.buttons a.cancel{
+  color: #FFF;
+  background-color: #ff4040;
+}
+
+.country .countryName div.editFields div.buttons a.save{
+  color: #FFF;
+  background-color: #4ee44e;
+}
+
+.country .countryName div.editFields div.editCapital{
+  padding-left: 5px;
+}
+
+.country .countryName div.editFields div.editCapital span{
+  margin-right: 10px;
+}
+
+.country .countryName div.editFields div.editCapital input{
+  border: 1px solid #CCC;
+  border-radius: 15px;
+  height: 20px;
+  margin-top: 5px;
+  padding: 0 10px;
+  outline: none;
+  width: 280px;
+}
+
+.mapContainer div.otherData input{
+  border: 1px solid #CCC;
+  border-radius: 15px;
+  height: 20px;
+  margin-top: 5px;
+  padding: 0 10px;
+  outline: none;
+  width: 150px;
+}

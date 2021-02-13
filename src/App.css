@@ -1,0 +1,140 @@
+.container{
+  display: flex;
+}
+
+.container-cards{
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.menu{
+  background-color: #CCC;
+  box-shadow: 1px 1px 5px 1px #666;
+  height: 100vh;
+  margin-right: 15px;
+  padding: 0 20px;
+  position: fixed;
+  width: 200px;
+}
+
+.menu + div{
+  margin-left: 250px;
+}
+
+.menu ul{
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.menu ul li{
+  padding: 10px 20px;
+}
+
+.menu ul li::before{
+  content: ">"
+}
+
+.menu ul li button{
+  background-color: inherit;
+  border: 0;
+  box-shadow: none;
+  cursor: pointer;
+  font-size: 14px;
+  outline: none;
+  text-decoration: underline;
+  text-transform: uppercase;
+  transition: all .5s;
+  -webkit-appearance: none;
+}
+
+.menu ul li.active{
+  background-color: #FFF;
+}
+
+.menu ul li.active button,
+.menu ul li.active::before{
+  font-weight: bold;
+}
+
+.menu ul li.active button:hover{
+  color: #000;
+}
+
+.menu ul li button:hover{
+  color: blue;
+  transition: all .5s;
+}
+
+.pagination-container{
+  display: flex;
+  flex-direction: column;
+  margin-top: 5px;
+  text-align: center;
+}
+
+.pagination-container ul{
+  display: flex;
+  list-style: none;
+  margin: 10px auto 0;
+  text-align: center;
+}
+
+.pagination-container ul > li {
+  border: 1px solid #666;
+  color: #666;
+  cursor: pointer;
+  font-size: 20px;
+  margin: 0 2px;
+  width: 30px;
+}
+
+.pagination-container ul > li.active{
+  background-color: #666;
+  color: #FFF;
+}
+
+.menu input.inputSearch{
+  border: 0;
+  border-radius: 15px;
+  height: 20px;
+  margin-bottom: 50px;
+  margin-top: 10px;
+  padding: 5px 10px;
+  outline: none;
+  width: 180px;
+}
+
+
+/*  Componente de Busca  */
+
+.searchResult{
+  background-color: #FFF;
+  left: 0;
+  list-style: none;
+  max-height: 400px;
+  overflow-x: auto;
+  position: absolute;
+  padding: 0;
+  top: 50px;
+  width: 100%;
+}
+
+.menu ul.searchResult li{
+  border: 1px solid #666;
+  margin: auto;
+  padding: 10px 5px 10px 10px;
+}
+
+.menu ul.searchResult li:hover{
+  background-color: #CCC;
+}
+
+.menu ul.searchResult a{
+  color: blue;
+  text-decoration: none;
+}
+
+.menu ul.searchResult li::before{
+  content: ""
+}

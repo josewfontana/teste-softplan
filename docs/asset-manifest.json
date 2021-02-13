@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "https://josewfontana.github.io/teste-softplan/static/css/main.2c2f388a.chunk.css",
+    "main.js": "https://josewfontana.github.io/teste-softplan/static/js/main.fa37db11.chunk.js",
+    "main.js.map": "https://josewfontana.github.io/teste-softplan/static/js/main.fa37db11.chunk.js.map",
+    "runtime-main.js": "https://josewfontana.github.io/teste-softplan/static/js/runtime-main.19a560f1.js",
+    "runtime-main.js.map": "https://josewfontana.github.io/teste-softplan/static/js/runtime-main.19a560f1.js.map",
+    "static/js/2.f7a48178.chunk.js": "https://josewfontana.github.io/teste-softplan/static/js/2.f7a48178.chunk.js",
+    "static/js/2.f7a48178.chunk.js.map": "https://josewfontana.github.io/teste-softplan/static/js/2.f7a48178.chunk.js.map",
+    "static/js/3.e0b3e48f.chunk.js": "https://josewfontana.github.io/teste-softplan/static/js/3.e0b3e48f.chunk.js",
+    "static/js/3.e0b3e48f.chunk.js.map": "https://josewfontana.github.io/teste-softplan/static/js/3.e0b3e48f.chunk.js.map",
+    "index.html": "https://josewfontana.github.io/teste-softplan/index.html",
+    "static/css/main.2c2f388a.chunk.css.map": "https://josewfontana.github.io/teste-softplan/static/css/main.2c2f388a.chunk.css.map",
+    "static/js/2.f7a48178.chunk.js.LICENSE.txt": "https://josewfontana.github.io/teste-softplan/static/js/2.f7a48178.chunk.js.LICENSE.txt",
+    "static/media/logo.6ce24c58.svg": "https://josewfontana.github.io/teste-softplan/static/media/logo.6ce24c58.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.19a560f1.js",
+    "static/js/2.f7a48178.chunk.js",
+    "static/css/main.2c2f388a.chunk.css",
+    "static/js/main.fa37db11.chunk.js"
+  ]
+}
