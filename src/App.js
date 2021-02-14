@@ -21,6 +21,7 @@ const App = function(props){
       props.fetchCountries();
     }
     setAllCountries(foundCountries);
+    filterCountries(foundCountries);
   }, [foundCountries]);
 
   useEffect(() => {
@@ -33,8 +34,6 @@ const App = function(props){
       setAllCountries(foundCountries);
       totalCountries = foundCountries.length;
     }
-
-    console.log(filteredCountries)
   }, [filteredCountries]);
 
   const [allCountries, setAllCountries] = useState([]);
