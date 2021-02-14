@@ -33,6 +33,8 @@ const App = function(props){
       setAllCountries(foundCountries);
       totalCountries = foundCountries.length;
     }
+
+    console.log(filteredCountries)
   }, [filteredCountries]);
 
   const [allCountries, setAllCountries] = useState([]);
@@ -80,7 +82,9 @@ const App = function(props){
   let currentCountries = sliceCountries(allCountries, indexOfFirstCountry, indexOfLastCountry);
 
   let pageNumbers = [];
-  for (let i = 1; i <= Math.ceil(filtered.length / countriesPerPage); i++) {
+
+  console.log(filtered);
+  for (let i = 1; i <= Math.ceil(filteredCountries.length / countriesPerPage); i++) {
     pageNumbers.push(i);
   }
 

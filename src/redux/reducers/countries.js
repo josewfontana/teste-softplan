@@ -41,6 +41,7 @@ const initialStateFiltered = {
 export const FilterCountries = (state = initialStateFiltered, action) => {
   switch (action.type) {
     case FILTER_COUNTRIES_ARRAY:
+    console.log(action);
       return {
         ...state,
         filteredCountries: action.filteredCountries
@@ -53,7 +54,6 @@ export const FilterCountries = (state = initialStateFiltered, action) => {
 export const UpdatedStateReducer = (state = initialState, action) => {
   switch (action.type) {
     case EDIT_COUNTRY:
-    console.log(action);
       return {
         ...state,
         countries: action.updatedCountries
